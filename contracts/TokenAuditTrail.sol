@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-/// @title TokenAuditTrail
-/// @notice Records all token transfer events immutably for compliance and audit purposes.
-/// @dev This contract tracks transfers of an ERC20-like token and stores an immutable log of each transaction.
+
 contract TokenAuditTrail {
 
     address public admin;
